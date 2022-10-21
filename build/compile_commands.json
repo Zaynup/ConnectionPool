@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zhangy/WorkSpace/myProject/ConnectionPool/build/src",
+  "command": "/usr/bin/g++   -I/home/zhangy/WorkSpace/myProject/ConnectionPool/src -I/home/zhangy/WorkSpace/myProject/ConnectionPool/example  -g   -o CMakeFiles/connpool.dir/Connection.cc.o -c /home/zhangy/WorkSpace/myProject/ConnectionPool/src/Connection.cc",
+  "file": "/home/zhangy/WorkSpace/myProject/ConnectionPool/src/Connection.cc"
+},
+{
+  "directory": "/home/zhangy/WorkSpace/myProject/ConnectionPool/build/src",
+  "command": "/usr/bin/g++   -I/home/zhangy/WorkSpace/myProject/ConnectionPool/src -I/home/zhangy/WorkSpace/myProject/ConnectionPool/example  -g   -o CMakeFiles/connpool.dir/ConnectionPool.cc.o -c /home/zhangy/WorkSpace/myProject/ConnectionPool/src/ConnectionPool.cc",
+  "file": "/home/zhangy/WorkSpace/myProject/ConnectionPool/src/ConnectionPool.cc"
+},
+{
+  "directory": "/home/zhangy/WorkSpace/myProject/ConnectionPool/build/example",
+  "command": "/usr/bin/g++   -I/home/zhangy/WorkSpace/myProject/ConnectionPool/src -I/home/zhangy/WorkSpace/myProject/ConnectionPool/example  -g   -o CMakeFiles/main.dir/main.cc.o -c /home/zhangy/WorkSpace/myProject/ConnectionPool/example/main.cc",
+  "file": "/home/zhangy/WorkSpace/myProject/ConnectionPool/example/main.cc"
+}
+]

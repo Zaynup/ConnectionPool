@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libconnpool.a  CMakeFiles/connpool.dir/Connection.cc.o CMakeFiles/connpool.dir/ConnectionPool.cc.o
+/usr/bin/ranlib ../../lib/libconnpool.a
