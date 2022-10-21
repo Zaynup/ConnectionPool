@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/main.dir/main.cc.o  -o ../../bin/main   -L/home/zhangy/WorkSpace/myProject/ConnectionPool/lib  -Wl,-rpath,/home/zhangy/WorkSpace/myProject/ConnectionPool/lib ../../lib/libconnpool.a -lmysqlclient -lpthread 

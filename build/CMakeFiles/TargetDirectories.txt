@@ -1,8 +1,0 @@
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/CMakeFiles/rebuild_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/CMakeFiles/edit_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/src/CMakeFiles/rebuild_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/src/CMakeFiles/edit_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/src/CMakeFiles/connpool.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/example/CMakeFiles/rebuild_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/example/CMakeFiles/edit_cache.dir
-/home/zhangy/WorkSpace/myProject/ConnectionPool/build/example/CMakeFiles/main.dir
