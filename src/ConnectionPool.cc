@@ -33,13 +33,15 @@ ConnectionPool *ConnectionPool::GetInstance()
 std::shared_ptr<Connection> ConnectionPool::getConnection()
 {
     std::unique_lock<std::mutex> lock(queMutex_);
-    if (connectionQue_.empty())
+    while (connectionQue_.empty())
     {
-        cv_.wait_for(lock, std::chrono::microseconds(connectionTimeout_));
-        if (connectionQue_.empty())
+        if (std::cv_status::timeout == cv_.wait_for(lock, std::chrono::microseconds(connectionTimeout_)))
         {
-            LOG("获取空闲连接超时。。。");
-            return nullptr;
+            if (connectionQue_.empty())
+            {
+                LOG("获取空闲连接超时。。。");
+                return nullptr;
+            }
         }
     }
 
