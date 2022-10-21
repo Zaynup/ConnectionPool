@@ -13,6 +13,9 @@ public:
 private:
     ConnectionPool() {}
 
+    // 从配置文件中加载配置
+    void loadConfigFile();
+
 private:
     std::string ip_;       // mysql的ip地址
     unsigned int port_;    // mysql的端口号 3306
