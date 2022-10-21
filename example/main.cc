@@ -1,16 +1,18 @@
-#include "Connection.h"
 #include <iostream>
+
+#include "Connection.h"
+#include "ConnectionPool.h"
 
 int main()
 {
-    Connection conn;
+    // Connection conn;
 
-    conn.connect("127.0.0.1", 3306, "root", "123456", "connpool");
+    // conn.connect("127.0.0.1", 3306, "root", "123456", "connpool");
 
-    char sql1[1024] = {0};
-    sprintf(sql1, "insert into user(username,age,sex) values ('%s','%d','%s');", "zhangy", 18, "male");
+    // char sql1[1024] = {0};
+    // sprintf(sql1, "insert into user(username,age,sex) values ('%s','%d','%s');", "zhangy", 18, "male");
 
-    conn.update(sql1);
+    // conn.update(sql1);
 
     return 0;
 }
